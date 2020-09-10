@@ -1,0 +1,118 @@
+/*********
+*********
+********
+******* @author: Anastácio Paulino
+*******
+********
+**********/
+/****** Geral
+-----------------------*/
+body, html, #home, #sobre {
+    height: 100%;
+}
+
+/****** Menu
+-----------------------*/
+.nav-item {
+    margin-right: 10px;
+}
+.nav-item:hover {
+    background: url(../img/seta.png) no-repeat bottom;
+    transition: .8s;
+}
+
+.tag {
+    font-weight: bold;
+    color: rgb(88, 53, 243);
+}
+
+#inicio {
+    background: url(../img/seta.pn) no-repeat bottom;
+}
+/*********** Layout 
+-------------------------------*/
+
+#home {
+    background: url(../img/mountains.jpg);
+    background-attachment: fixed;
+}
+
+#dev {
+    padding-bottom: 4px;
+    font-weight: bold;
+    color: rgb(88, 53, 243);
+    font-size: 14px;
+    display: inline-block;
+}
+
+#name {
+    font-size: 3.7rem;
+    font-weight: 300;
+    line-height: 1.2;
+}
+
+.slogan {
+    margin-top: -9px;
+    font-size: 1.1rem;
+    font-weight: 300;
+}
+
+.botao {
+    color: rgb(88, 53, 243);
+    font-weight: bold;
+    background-color: transparent;
+    background-image: none;
+    border-color: rgb(88, 53, 243);
+}
+
+.botao:hover {
+    color: #fff;
+    background-color: rgb(88, 53, 243);
+    border-color: rgb(88, 53, 243);
+}
+
+#profile_pic1 {
+    height: 280px;
+    width: 280px;
+    padding-bottom: 1px;
+    border-bottom-left-radius: 60%;
+    border-bottom-right-radius: 60%;
+    border-bottom: 10px solid rgb(53, 135, 243);
+    transform: scaleX(-1);
+}
+
+
+/******* Inicio
+-----------------------*/
+
+#sobre {
+    background: #292b2c ;
+}
+
+#name {
+    font-size: 1.5em;
+    font-weight: 300;
+}
+
+#profile_pic2 {
+    height: 200px;
+    width: 200px;
+    padding: 5px;
+    border-radius: 100%;
+    border: 5px solid rgb(53, 135, 243);
+}
+
+.social {
+    font-size: 2em;
+    color: rgb(0, 153, 255);
+}
+
+.share-social li {
+    display: inline;
+}
+
+
+footer {
+    padding: 20px;
+    background: rgba(53, 135, 243, 0.473);
+}
