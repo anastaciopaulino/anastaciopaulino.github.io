@@ -1,4 +1,4 @@
-/*=============== CHANGE BACKGROUND HEADER ===============*/
+/*************** CHANGE BACKGROUND HEADER ***************/
 function scrollHeader() {
     const header = document.getElementById('header')
 
@@ -11,7 +11,7 @@ function scrollHeader() {
 
 window.addEventListener('scroll', scrollHeader)
 
-/*=============== SERVICES MODAL ===============*/
+/*************** SERVICES MODAL ***************/
 const modalView = document.querySelectorAll('.services__modal'),
       modalBtns = document.querySelectorAll('.services__button'),
       modalClose = document.querySelectorAll('.services__modal-close')
@@ -34,7 +34,7 @@ modalClose.forEach((mc) => {
     })
 })
 
-/*=============== MIXITUP FILTER PORTFOLIO ===============*/
+/*************** MIXITUP FILTER PORTFOLIO ***************/
 let mixerPortfolio = mixitup('.work__container', {
     selectors: {
         target: '.work__card'
@@ -55,7 +55,7 @@ function activeWork() {
 linkWork.forEach(l => l.addEventListener('click', activeWork))
 
 
-/*=============== SWIPER TESTIMONIAL ===============*/
+/*************** SWIPER TESTIMONIAL ***************/
 let swiperTestimonial = new Swiper('.testimonial__container', {
     spaceBetween: 24,
     loop: true,
@@ -78,7 +78,7 @@ let swiperTestimonial = new Swiper('.testimonial__container', {
 })
 
 
-/*=============== SCROLL SECTIONS ACTIVE LINK ===============*/
+/*************** SCROLL SECTIONS ACTIVE LINK ***************/
 const sections = document.querySelectorAll('section[id]')
 
 function scrollActive(){
@@ -98,7 +98,7 @@ function scrollActive(){
 }
 window.addEventListener('scroll', scrollActive)
 
-/*=============== LIGHT DARK THEME ===============*/ 
+/*************** LIGHT DARK THEME ***************/ 
 const themeButton = document.getElementById('theme-button')
 const lightTheme = 'light-theme'
 const iconTheme = 'bx-sun'
@@ -129,7 +129,7 @@ themeButton.addEventListener('click', () => {
 })
 
 
-/*=============== SCROLL REVEAL ANIMATION ===============*/
+/*************** SCROLL REVEAL ANIMATION ***************/
 
 const sr = ScrollReveal({
     origin: 'top',
