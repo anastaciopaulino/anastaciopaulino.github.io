@@ -492,6 +492,11 @@ body.light-theme {
 .about__description {
   margin-bottom: 2rem;
 }
+
+.about__description span {
+  font-style: italic;
+  font-weight: bold;
+}
 /*************** SKILLS ***************/
 .skills__container {
   row-gap: 2rem;
